@@ -1,4 +1,5 @@
-separator = # regexp for blank line
+# this is probably the Wrong Way to do it but I am not Mr. Regexp.
+separator =~ ^\s{10,}
 
 def answer(line)
 	# here we take the "B-" lines and grep 'em for the answers - values like (3) - and return that value
